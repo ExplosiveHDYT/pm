@@ -4,7 +4,7 @@ local name = select(2, ...)
 
 local url = {
   hello = "https://example.com/hello.lua",
-  smp = "https://raw.githubusercontent.com/ExplosiveHDYT/pm/refs/heads/main/smp.lua",
+  sample = "https://raw.githubusercontent.com/ExplosiveHDYT/pm/refs/heads/main/sample.lua",
   pm = "https://raw.githubusercontent.com/ExplosiveHDYT/pm/refs/heads/main/pm.lua"
 }
 
