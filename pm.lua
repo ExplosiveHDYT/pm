@@ -14,7 +14,8 @@ local url = {
   ccpkg = "https://raw.githubusercontent.com/Gibbo3771/ccpkg/main/install.lua",
   minux = "https://minux.cc/netinstall",
   ezdisplay = "FAXS7uk6",
-  turtlyfarmer = "https://github.com/HeshamSHY/Turtly-Farmer/blob/main/installer.lua"
+  turtlyfarmer = "https://github.com/HeshamSHY/Turtly-Farmer/blob/main/installer.lua",
+  quarryInstaller = "https://raw.githubusercontent.com/ExplosiveHDYT/quarry/refs/heads/main/quarryInstaller.lua"
 
 
 }
