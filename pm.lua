@@ -16,7 +16,7 @@ local url = {
   ezdisplay = "FAXS7uk6",
   turtlyfarmer = "https://github.com/HeshamSHY/Turtly-Farmer/blob/main/installer.lua",
   quarryinstaller = "https://raw.githubusercontent.com/ExplosiveHDYT/quarry/refs/heads/main/quarryinstaller.lua"
-
+  format = "https://raw.githubusercontent.com/ExplosiveHDYT/pm/refs/heads/main/format.lua"
 
 }
 
