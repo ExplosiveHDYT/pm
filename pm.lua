@@ -1,3 +1,19 @@
+-- Alias definitions
+local aliases = {
+  aliassample = "add sample",    -- alias for 'install' command
+  update = "add pm"   -- alias for 'update' command, equivalent to 'add pm'
+}
+
+-- Check if the user entered an alias and replace it
+local command = ...
+local name = string.lower(select(2, ...) or "")
+
+-- If the command matches an alias, replace it with the full command
+if aliases[command] then
+  command = aliases[command]
+end
+
+
 -- pm
 local command = ...
 local name = string.lower(select(2, ...) or "")
