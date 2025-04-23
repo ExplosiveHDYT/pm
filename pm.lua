@@ -159,7 +159,7 @@ if command == "add" then
 end
 
 if command == "rm" then
-  print("Remove".. name .."package? (y/n)")
+  print("Remove ".. name .." package? (y/n)")
   local answer = read()
   if answer == "y" then
     shell.run("rm", name..".lua")
