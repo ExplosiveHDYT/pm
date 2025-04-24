@@ -5,17 +5,17 @@ local aliases = {
 }
 
 -- Grab initial command and name
-local command = string.lower(select(1, ...))
+local command = string.lower(select(1, ...) or "")
 local name = string.lower(select(2, ...) or "")
 
--- Replace alias if one exists
+-- Apply alias substitution if it exists
 if aliases[command] then
   local split = {}
   for word in aliases[command]:gmatch("%S+") do
     table.insert(split, word)
   end
-  command = split[1]
-  name = split[2] or name -- preserve original name if alias doesn't override
+  command = split[1] or command
+  name = split[2] or name
 end
 
 
