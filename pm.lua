@@ -1,22 +1,23 @@
 -- Alias definitions
 local aliases = {
-  aliassample = "add sample",    -- alias for 'install' command
-  update = "add pm"   -- alias for 'update' command, equivalent to 'add pm'
+  aliassample = "add sample",
+  update = "add pm"
 }
 
--- Check if the user entered an alias and replace it
-local command = ...
+-- Grab initial command and name
+local command = string.lower(select(1, ...))
 local name = string.lower(select(2, ...) or "")
 
--- If the command matches an alias, replace it with the full command
+-- Replace alias if one exists
 if aliases[command] then
-  command = aliases[command]
+  local split = {}
+  for word in aliases[command]:gmatch("%S+") do
+    table.insert(split, word)
+  end
+  command = split[1]
+  name = split[2] or name -- preserve original name if alias doesn't override
 end
 
-
--- pm
-local command = ...
-local name = string.lower(select(2, ...) or "")
 
 local url = {
   hello = "https://example.com/hello.lua",
