@@ -17,7 +17,7 @@ if aliases[command] then
   command = split[1] or command
   name = split[2] or name
 end
-hfdsakjfhkjasdhkjasdfhdksja hjkf hdsakjfhadkjf hadkjfhdaskjfhdas kjfhd akjhf akjds
+
 
 local url = {
   hello = "https://example.com/hello.lua",
