@@ -34,7 +34,7 @@ local url = {
   turtlyfarmer = "https://github.com/HeshamSHY/Turtly-Farmer/blob/main/installer.lua",
   quarryinstaller = "https://raw.githubusercontent.com/ExplosiveHDYT/quarry/refs/heads/main/quarryinstaller.lua",
   format = "https://raw.githubusercontent.com/ExplosiveHDYT/pm/refs/heads/main/format.lua",
-  ishdinstaller = "https://raw.githubusercontent.com/ExplosiveHDYT/pm/refs/heads/main/ishdinstaller.lua"
+  ishdinstaller = "https://raw.githubusercontent.com/ExplosiveHDYT/pm/refs/heads/main/ishdinstaller.lua",
   radioinstaller = "https://raw.githubusercontent.com/ExplosiveHDYT/radioinstaller/refs/heads/main/radioinstaller.lua"
 }
 
