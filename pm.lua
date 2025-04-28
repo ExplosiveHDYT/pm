@@ -36,6 +36,7 @@ local url = {
   format = "https://raw.githubusercontent.com/ExplosiveHDYT/pm/refs/heads/main/format.lua",
   ishdinstaller = "https://raw.githubusercontent.com/ExplosiveHDYT/pm/refs/heads/main/ishdinstaller.lua",
   radioinstaller = "https://raw.githubusercontent.com/ExplosiveHDYT/radioinstaller/refs/heads/main/radioinstaller.lua"
+  stockmarketinstaller = "https://raw.githubusercontent.com/ExplosiveHDYT/stockMarket/refs/heads/main/installer.lua"
 }
 
 if command == "man" then
