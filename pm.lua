@@ -18,7 +18,6 @@ if aliases[command] then
   name = split[2] or name
 end
 
-gsdghfdshsdfhshshsfdhdsfhfdsh
 local url = {
   hello = "https://example.com/hello.lua",
   sample = "https://raw.githubusercontent.com/ExplosiveHDYT/pm/refs/heads/main/sample.lua",
